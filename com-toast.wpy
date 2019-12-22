@@ -104,7 +104,7 @@
 
 			/**
 			 * 显示消息对话框。
-			 * @param {Object || String} options 配置项。
+			 * @param {Object | String} options 配置项。
 			 * @param {String} options.content 提示文本。
 			 * @param {String} options.position 对话框出现在屏幕的位置，支持“top”、“center”、“bottom”，默认值为“bottom”。
 			 * @param {String} options.duration 指定对话框若干毫秒后自动消失，默认值为“2000”。
