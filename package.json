@@ -13,6 +13,7 @@
     "scripts": {
         "deploy": "npm publish --access=public"
     },
+    "typings": "com-toast.d.ts",
     "dependencies": {},
     "devDependencies": {}
 }
