@@ -1,4 +1,6 @@
-export interface WepyComponentToast {
+import { WepyComponent } from "@wepy/core/types/wepy";
+
+export interface WepyComponentToast extends WepyComponent {
     /**
      * 显示消息对话框。
      * @param {String | Object} options 
