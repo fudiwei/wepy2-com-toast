@@ -20,7 +20,7 @@ npm install @skit/wepy2-com-toast --save
 
 ``` html
 <template>
-    <ui-toast ref="toast" />
+    <ui-toast ref="ui-toast" />
 </template>
 <config>
 {
