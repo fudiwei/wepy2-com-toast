@@ -10,12 +10,10 @@
 
 ## 用法
 
-> 提示：暂时未发布到 npmjs.org，需先自行执行 npm run deploy 发布到私有仓库。
-
 安装：
 
 ``` shell
-npm install @step/wepy2-com-toast --save
+npm install @skit/wepy2-com-toast --save
 ```
 
 导入：
@@ -27,7 +25,7 @@ npm install @step/wepy2-com-toast --save
 <config>
 {
     usingComponents: {
-        'ui-toast': 'module:@step/wepy2-com-toast'
+        'ui-toast': 'module:@skit/wepy2-com-toast'
     }
 }
 </config>
@@ -42,7 +40,7 @@ npm install @step/wepy2-com-toast --save
 </script>
 ```
 
-> 注意：当前版本的 wepy 存在 Bug，无法打包通过 `node_modules` 引入的 wpy 组件，解决方案请参考 [Issue#2554](https://github.com/Tencent/wepy/issues/2554)。
+> 注意：当前版本的 wepy-cli 存在 Bug，无法打包通过 `node_modules` 引入的 wpy 组件，解决方案请参考 [Issue#2554](https://github.com/Tencent/wepy/issues/2554)。
 
 ### 可配置项
 
