@@ -1,5 +1,5 @@
 {
-    "name": "@step/wepy2-com-toast",
+    "name": "@skit/wepy2-com-toast",
     "title": "wepy2-com-toast",
     "description": "A component for displaying a toast based on wepy.js 2.x.",
     "version": "1.0.0",
