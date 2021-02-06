@@ -34,7 +34,7 @@ npm install @skit/wepy2-com-toast --save
 
     Wepy.page({
         onShow() {
-            this.$refs['toast'].show('hello world');
+            this.$refs['ui-toast'].show('hello world');
         }
     });
 </script>
@@ -58,7 +58,7 @@ npm install @skit/wepy2-com-toast --save
  * @param {String} options.position 对话框出现在屏幕的位置，支持“top”、“center”、“bottom”，默认值为“bottom”。
  * @param {String} options.duration 指定对话框若干毫秒后自动消失，默认值为“2000”。
  */
-this.$refs['toast'].show({
+this.$refs['ui-toast'].show({
     content: '这是一条消息',
     position: 'center',
     duration: 3000
@@ -68,10 +68,10 @@ this.$refs['toast'].show({
  * 显示消息对话框。
  * @param {String} content 消息文本。
  */
-this.$refs['toast'].show('这是一条消息');
+this.$refs['ui-toast'].show('这是一条消息');
 
 /**
  * 隐藏消息对话框。
  */
-this.$refs['toast'].hide();
+this.$refs['ui-toast'].hide();
 ```
